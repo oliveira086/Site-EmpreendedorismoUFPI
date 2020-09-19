@@ -1,7 +1,7 @@
 import React from 'react';
-import { Link } from 'react-router-dom'
 
 import Header from '../../components/Header'
+import InitalAbout from '../../components/InitAbout'
 import Sectors from '../../components/Sectors';
 import EventsCarousel from '../../components/EventsCarousel';
 import OurTeam from '../../components/OurTeam';
@@ -11,6 +11,7 @@ function HomePage() {
     <div>
 
       <Header/>
+      <InitalAbout/>
       <Sectors />
 
       <EventsCarousel />

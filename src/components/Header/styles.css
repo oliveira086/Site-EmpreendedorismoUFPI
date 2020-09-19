@@ -11,7 +11,7 @@
 header#headerGeral{
     display: flex;
     position: absolute;
-    width: 100%;
+    width: 100vw;
     height: 10vh;
     left: 0px;
     top: 1px;
