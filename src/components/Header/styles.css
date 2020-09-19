@@ -4,8 +4,10 @@
 }
 
 #section-header{
+    position: absolute;
     width: 100vw;
     height: 10vh;
+    z-index: 999;
 }
 
 header#headerGeral{
@@ -22,8 +24,6 @@ ul{
     display: flex;
     flex-direction: row;
 }
-
-
 
 .link{
     color: #00183C;
