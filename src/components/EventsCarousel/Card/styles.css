@@ -1,10 +1,9 @@
 .section-events-wrapper {
-  width: 80%;
+  width: 70%;
   margin: 20px auto;
   text-align: center;
-  border-radius: 20px;
-  background-color: #FAF8F8;
-  border: 20px solid #ECECEC;
+  border-radius: 10px;
+  background-color: #FAF8F8;;
 }
 
 .section-events-wrapper img {
@@ -16,7 +15,7 @@
   width: 76%;
   padding-left: 10px;
   text-align: left;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 600;
   font-family: 'Poppins', sans-serif;
 }
