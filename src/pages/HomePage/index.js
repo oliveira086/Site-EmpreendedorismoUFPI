@@ -5,6 +5,7 @@ import InitalAbout from '../../components/InitAbout'
 import Sectors from '../../components/Sectors';
 import EventsCarousel from '../../components/EventsCarousel';
 import OurTeam from '../../components/OurTeam';
+import Footer from '../../components/Footer'
 
 function HomePage() {
   return (
@@ -17,6 +18,7 @@ function HomePage() {
       <EventsCarousel />
 
       <OurTeam />
+      <Footer/>
     </div>
   );
 }
