@@ -16,7 +16,11 @@ function LoginPage() {
             <FormInput width={20} title={'Email'} placeHolder={'seuemail.com.br'} required={true} type={'email'}/>
             <FormInput width={20} title={'Senha'} placeHolder={'*****'} required={true} type={'password'}/>
             <Button width={15} content={'Entrar'}></Button>
-            <span>Esqueceu a senha?</span>
+            <span id="text-recuperar">Esqueceu a senha?</span>
+            <div id="container-chamada-cadastro">
+              <span id="text-cadastrar">Você ainda não é cadastrado</span>
+              <Button width={8} content={'Cadastre-se'} size={12}></Button>
+            </div>
           </div>
         </div>
         <div id="container-transform"></div>
