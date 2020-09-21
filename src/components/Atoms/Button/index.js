@@ -5,7 +5,8 @@ function Button (props) {
     console.log(props)
 
     const style = {
-        width: props.width + 'vw'
+        width: props.width + 'vw',
+        fontSize: props.size + 'px'
     };
 
     return (
