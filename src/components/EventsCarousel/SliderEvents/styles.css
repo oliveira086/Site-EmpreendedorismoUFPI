@@ -1,9 +1,10 @@
 .slick-next {
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   z-index: 999;
   background: url('../../../assets/icons/next.svg') center center no-repeat !important;
   background-size: 100% 100%;
+  
 }
 
 .slick-next::before {
@@ -11,8 +12,8 @@
 }
 
 .slick-prev {
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   z-index: 999;
   background: url('../../../assets/icons/back.svg') center center no-repeat !important;
   background-size: 100% 100%;
