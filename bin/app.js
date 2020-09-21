@@ -8,6 +8,6 @@ app.use(express.static(`${baseDir}`))
 
 app.get('*', (req,res) => res.sendFile('index.html' , { root : baseDir }))
 
-const port = process.env.PORT_CONFIG || 3001
+const port = process.env.PORT_APP || 3001
 
 app.listen(port, () => console.log(`Servidor subiu com sucesso em http://localhost:${port}`))
