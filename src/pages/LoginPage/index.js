@@ -1,22 +1,33 @@
 import React from 'react';
-import {Link} from 'react-router-dom'
+
+import Header from '../../components/Header'
+import Button from '../../components/Atoms/Button'
+import FormInput from '../../components/Atoms/FormInput'
+import './styles.css';
 
 function LoginPage() {
   return (
     <div>
-      <h2>Login</h2>
-      <ul>
-        <li><Link to='/'>Home</Link></li>
-        <li><Link to='/sobre'>Quem Somos!</Link></li>
-        <li><Link to='/contato'>Contato</Link></li>
-        <li><Link to='/servicos'>Serviços</Link></li>
-        <li><Link to='/eventos'>Eventos</Link></li>
-        <li><Link to='/login'>Login</Link></li>
-        <li><Link to='/cadastro'>Cadastro</Link></li>
-        <li><Link to='/admin'>Painel do admin</Link></li>
-        <li><Link to='/usuario'>Painel do usuário</Link></li>
-      </ul>
+      <Header/>
+      <section id="section-login">
+        <div id="container-form-login">
+          <div id="form-login">
+            <span id="text-entrar">Entrar</span>
+            <FormInput width={20} title={'Email'} placeHolder={'seuemail.com.br'} required={true} type={'email'}/>
+            <FormInput width={20} title={'Senha'} placeHolder={'*****'} required={true} type={'password'}/>
+            <Button width={15} content={'Entrar'}></Button>
+            <span>Esqueceu a senha?</span>
+          </div>
+        </div>
+        <div id="container-transform"></div>
+        <div id="container-complete-transform">
+          <div id="logo-login"></div>
+        </div>
+
+      </section>
+
     </div>
+
   );
 }
 
