@@ -7,18 +7,27 @@ import logo from "../../imgs/logo4.png";
 class Header extends Component {
     render(){
         return (
-            <header id="headerGeral">
-                <img src={logo} className="logoHeader"></img>
-                <ul>
-                    <li><Link to='/' className="link">Home</Link></li>
-                    <li><Link to='/sobre' className="link">Quem Somos</Link></li>
-                    <li><Link to='/contato' className="link">Contato</Link></li>
-                    <li><Link to='/servicos' className="link">Serviços</Link></li>
-                    <li><Link to='/eventos' className="link">Eventos</Link></li>
-                    <li><Link to='/login' className="link">Minha conta</Link></li>
-                    <li><Link to='/cadastro' className="link">Cadastre-se</Link></li>
-                </ul>
-            </header>
+            <section id="section-header">
+                <header id="headerGeral">
+                    <div id="container-logo">
+                        <img src={logo} className="logoHeader"></img>
+                    </div>
+                    <div id="buttons-links">
+                        <ul id="list">
+                            <li id="item"><Link to='/' className="link">Home</Link></li>
+                            <li id="item"><Link to='/sobre' className="link">Quem Somos</Link></li>
+                            <li id="item"><Link to='/contato' className="link">Contato</Link></li>
+                            <li id="item"><Link to='/servicos' className="link">Serviços</Link></li>
+                            <li id="item"><Link to='/eventos' className="link">Eventos</Link></li>
+                            <li id="item"><Link to='/login' className="link">Minha conta</Link></li>
+                            <li id="item"><Link to='/cadastro' className="link">Cadastre-se</Link></li>
+                        </ul>
+                    </div>
+                    
+                </header>
+
+            </section>
+            
         );
     }
 }
